@@ -28,6 +28,12 @@ body {
   }
 }
 
+@media (max-width: 991px) {
+  .header__menu {
+    margin: 33px 0 0 0;
+  }
+}
+
 .menu__nav {
   .nav__item::before {
     content: "";
@@ -461,15 +467,16 @@ body {
   padding: 0 0 0 42px;
 }
 
-
 .help__already {
   padding: 0 34px 0 0;
 }
 
-@media (max-width: 576px) {
-  .help__need,
-  .help__already {
+@media (max-width: 993px) {
+  .help__need {
     padding: 0 0 0 0;
+  }
+  .help__already {
+    padding: 30px 0 0 0;
   }
 }
 
@@ -715,6 +722,11 @@ footer {
   padding: 0;
 }
 
+.tel__num {
+  margin-left: 10px;
+}
+
+
 .tel__num a {
   font-family: Roboto, 'Times New Roman', serif;
   font-style: normal;
@@ -725,6 +737,9 @@ footer {
   color: #4C4C4C;
 }
 
+.addr__vrn {
+  margin-left: 10px;
+}
 .addr__vrn a {
   font-family: Roboto, 'Times New Roman', serif;
   font-style: normal;
